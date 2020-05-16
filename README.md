@@ -17,12 +17,12 @@ If you do not have conda, it can be installed using the shell script
 
 This is not the advised way to install, since the user will have to deal with their specific system setup
 
-Run build.sh, which uses cmake to compile MPACK
+Run build.sh, which uses cmake to compile MPACK:
 ```
 bash build.sh
 ```
 
-Note that ability to run make install in build.sh will depend on your system setup.
+Note that the results of the `make install` command in build.sh will depend on your system setup.
 
 
 ## Notice 
