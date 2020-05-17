@@ -47,5 +47,5 @@ Note that the results of the `make install` command in build.sh will depend on y
 Authors:
 Nakata Maho <maho@riken.jp>
 
-Distributed under GNU LESSER GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
+Distributed under GNU LESSER GENERAL PUBLIC LICENSE, Version 3, 29 June 2007  
 See 'COPYING' file for more details
