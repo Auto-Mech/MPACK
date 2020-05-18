@@ -5,11 +5,13 @@ Multiprecision linear algebra PACKage.
 ### Installation using Conda
 
 The most direct way to install the code is through the conda package manager.
-If you have conda installed, simply run the following command in whichever
-environment you choose:
+If you have conda installed,  
+(1) activate an environment in you wish to use to install MPACK, and  
+(2) run the install command:
 ```
 conda install -c auto-mech mpack
 ```
+
 If you do not have a preferred Conda environment set up, an empty environment with no packages can be created and activated with the following commands
 ```
 conda create --name myenv
