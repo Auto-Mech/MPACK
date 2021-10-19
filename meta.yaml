@@ -1,7 +1,7 @@
-# cmd: conda build .
+# cmd: conda build . -c conda-forge
 package:
     name: mpack
-    version: "0.6.7"
+    version: "0.6.8"
 
 source:
     path: .
@@ -11,17 +11,17 @@ requirements:
         - autoconf
         - automake
         - libtool
-        - {{ compiler('c') }}
-        - {{ compiler('cxx') }}
-        - {{ compiler('fortran') }}
-        - blas
-        - openblas # [linux]
+        - conda-forge::gcc_linux-64=11.2.0
+        - conda-forge::gxx_linux-64=11.2.0
+        - conda-forge::gfortran_linux-64=11.2.0
+        - conda-forge::blas
+        - conda-forge::openblas # [linux]
     run:
         - autoconf
         - automake
         - libtool
-        - {{ compiler('c') }}
-        - {{ compiler('cxx') }}
-        - {{ compiler('fortran') }}
-        - blas
-        - openblas # [linux]
+        - conda-forge::gcc_linux-64=11.2.0
+        - conda-forge::gxx_linux-64=11.2.0
+        - conda-forge::gfortran_linux-64=11.2.0
+        - conda-forge::blas
+        - conda-forge::openblas # [linux]
